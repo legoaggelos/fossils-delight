@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "fossil:meat_tiktaalik"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:tiktaalik_maki",
+    "count": 4
+  }
+}

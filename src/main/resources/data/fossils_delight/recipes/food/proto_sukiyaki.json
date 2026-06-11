@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "fossil:meat_protoceratops"
+    },
+    {
+      "item": "fossil:essence_chicken"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:proto_sukiyaki"
+  },
+  "experience": 2.0,
+  "cookingtime": 200
+}
