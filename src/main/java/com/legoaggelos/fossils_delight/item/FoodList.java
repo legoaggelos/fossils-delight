@@ -9,4 +9,6 @@ public class FoodList {
     public static final FoodProperties Escamoles = new FoodProperties.Builder().nutrition(14).saturationMod(1.4F).alwaysEat().build();
     public static final FoodProperties TiktaalikMaki = new FoodProperties.Builder().nutrition(2).saturationMod(0.2F).alwaysEat().build();
     public static final FoodProperties ProtoSukiyaki = new FoodProperties.Builder().nutrition(9).saturationMod(1.0F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST,15*20,0),1).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(),180*20,0),1).build();
+    public static final FoodProperties CoelacanthSashimi = new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).build();
+    public static final FoodProperties DodoScrambledEggs = new FoodProperties.Builder().nutrition(6).saturationMod(0.3F).build();
 }

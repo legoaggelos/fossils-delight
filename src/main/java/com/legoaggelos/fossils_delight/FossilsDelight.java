@@ -1,5 +1,7 @@
 package com.legoaggelos.fossils_delight;
 
+import com.github.teamfossilsarcheology.fossil.food.FoodMappingsManager;
+import com.legoaggelos.fossils_delight.compat.FossilsArcheologyFeeder;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -33,6 +35,8 @@ public class FossilsDelight
                 output.accept(Escamoles.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                 output.accept(TiktaalikMaki.get());
                 output.accept(ProtoSukiyaki.get());
+                output.accept(CoelacanthSashimi.get());
+                output.accept(DodoScrambledEggs.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)
@@ -45,6 +49,8 @@ public class FossilsDelight
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
         ITEMS.register(modEventBus);
+
+        FoodMappingsManager.INSTANCE.listen(FossilsArcheologyFeeder::registerFoodMappings);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "fossils_delight:dodo_eggs"
+    },
+    {
+      "tag": "fossils_delight:dodo_eggs"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "fossils_delight:dodo_scrambled_eggs"
+  },
+  "experience": 2.0,
+  "cookingtime": 200
+}

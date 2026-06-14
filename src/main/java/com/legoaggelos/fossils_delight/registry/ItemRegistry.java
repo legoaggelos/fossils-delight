@@ -16,4 +16,8 @@ public class ItemRegistry {
             () -> new ConsumableItem(new Item.Properties().food(FoodList.TiktaalikMaki), true));
     public static final RegistryObject<Item> ProtoSukiyaki = ITEMS.register("proto_sukiyaki",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.ProtoSukiyaki), true));
+    public static final RegistryObject<Item> CoelacanthSashimi = ITEMS.register("coelacanth_sashimi",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.CoelacanthSashimi), true));
+    public static final RegistryObject<Item> DodoScrambledEggs = ITEMS.register("dodo_scrambled_eggs",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.DodoScrambledEggs), true));
 }

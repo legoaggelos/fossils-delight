@@ -8,7 +8,7 @@
       "item": "farmersdelight:raw_pasta"
     },
     {
-      "item": "fossil:meat_protoceratops"
+      "tag": "fossils_delight:raw_dino_meats"
     },
     {
       "item": "fossil:essence_chicken"
@@ -20,6 +20,9 @@
       "item": "minecraft:brown_mushroom"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "result": {
     "item": "fossils_delight:proto_sukiyaki"
   },
