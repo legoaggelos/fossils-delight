@@ -37,6 +37,7 @@ public class FossilsDelight
                 output.accept(ProtoSukiyaki.get());
                 output.accept(CoelacanthSashimi.get());
                 output.accept(DodoScrambledEggs.get());
+                output.accept(ThawedStew.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)

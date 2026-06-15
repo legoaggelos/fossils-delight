@@ -11,6 +11,7 @@ public class FossilsArcheologyFeeder {
 
         manager.addMeat(Escamoles.get());
         manager.addMeat(ProtoSukiyaki.get());
+        manager.addMeat(ThawedStew.get());
 
         manager.addEgg(DodoScrambledEggs.get());
     }

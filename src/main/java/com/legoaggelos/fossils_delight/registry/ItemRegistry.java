@@ -20,4 +20,6 @@ public class ItemRegistry {
             () -> new ConsumableItem(new Item.Properties().food(FoodList.CoelacanthSashimi), true));
     public static final RegistryObject<Item> DodoScrambledEggs = ITEMS.register("dodo_scrambled_eggs",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.DodoScrambledEggs), true));
+    public static final RegistryObject<Item> ThawedStew = ITEMS.register("thawed_stew",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.ThawedStew), true));
 }
