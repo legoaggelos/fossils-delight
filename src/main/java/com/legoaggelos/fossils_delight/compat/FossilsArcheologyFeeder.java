@@ -16,6 +16,7 @@ public class FossilsArcheologyFeeder {
         manager.addMeat(GingerMegalograptus.get());
         manager.addMeat(JurassicBrochette.get());
         manager.addMeat(CitipatiWaffles.get());
+        manager.addMeat(MeganeuraOnAStick.get());
 
         manager.addEgg(DodoScrambledEggs.get());
 

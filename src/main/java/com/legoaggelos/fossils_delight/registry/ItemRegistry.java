@@ -33,4 +33,6 @@ public class ItemRegistry {
             () -> new ConsumableItem(new Item.Properties().food(FoodList.CitipatiWaffles), true));
     public static final RegistryObject<Item> TrilobiteBoil = ITEMS.register("trilobite_boil",
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.TrilobiteBoil), true));
+    public static final RegistryObject<Item> MeganeuraOnAStick = ITEMS.register("meganeura_stick",
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.STICK).food(FoodList.MeganeuraOnAStick), true));
 }

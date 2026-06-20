@@ -43,6 +43,7 @@ public class FossilsDelight
                 output.accept(JurassicBrochette.get());
                 output.accept(CitipatiWaffles.get());
                 output.accept(TrilobiteBoil.get());
+                output.accept(MeganeuraOnAStick.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "fossil:meat_meganeura"
+    },
+    {
+      "item": "fossil:meat_meganeura"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "item": "fossils_delight:meganeura_stick"
+  },
+  "experience": 3.0,
+  "cookingtime": 300
+}

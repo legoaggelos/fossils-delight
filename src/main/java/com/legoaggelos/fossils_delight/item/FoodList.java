@@ -17,4 +17,5 @@ public class FoodList {
     public static final FoodProperties JurassicBrochette = new FoodProperties.Builder().nutrition(20).saturationMod(1.6F).build();
     public static final FoodProperties CitipatiWaffles = new FoodProperties.Builder().nutrition(10).saturationMod(1.0F).build();
     public static final FoodProperties TrilobiteBoil = new FoodProperties.Builder().nutrition(16).saturationMod(1.2F).build();
+    public static final FoodProperties MeganeuraOnAStick = new FoodProperties.Builder().nutrition(16).saturationMod(0.8F).build();
 }
