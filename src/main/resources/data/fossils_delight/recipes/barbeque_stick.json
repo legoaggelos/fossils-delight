@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    [
+       {
+        "tag": "fossils_delight:cooked_dino_meats"
+      }
+    ],
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:barbecue_stick"
+  }
+}

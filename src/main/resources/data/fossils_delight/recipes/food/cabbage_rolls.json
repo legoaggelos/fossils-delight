@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    [
+      {
+        "tag": "fossils_delight:raw_dino_meats"
+      },
+      {
+        "tag": "fossils_delight:cooked_dino_meats"
+      }
+    ]
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "farmersdelight:cabbage_rolls"
+  }
+}
