@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "fossil:meat_liopleurodon"
+    },
+    {
+      "item": "fossil:meat_dimorphodon"
+    },
+    {
+      "item": "fossil:meat_allosaurus"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "item": "fossils_delight:brochette"
+  },
+  "experience": 3.0,
+  "cookingtime": 300
+}

@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "fossil:meat_citipati"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:citipati_waffles"
+  },
+  "experience": 1.5,
+  "cookingtime": 250
+}

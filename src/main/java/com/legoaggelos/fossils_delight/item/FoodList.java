@@ -12,4 +12,9 @@ public class FoodList {
     public static final FoodProperties CoelacanthSashimi = new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).build();
     public static final FoodProperties DodoScrambledEggs = new FoodProperties.Builder().nutrition(6).saturationMod(0.3F).build();
     public static final FoodProperties ThawedStew = new FoodProperties.Builder().nutrition(10).saturationMod(1.0F).build();
+    public static final FoodProperties GingerMegalograptus = new FoodProperties.Builder().nutrition(10).saturationMod(1.0F).build();
+    public static final FoodProperties RiceInLeave = new FoodProperties.Builder().nutrition(2).saturationMod(1.0F).build();
+    public static final FoodProperties JurassicBrochette = new FoodProperties.Builder().nutrition(20).saturationMod(1.6F).build();
+    public static final FoodProperties CitipatiWaffles = new FoodProperties.Builder().nutrition(10).saturationMod(1.0F).build();
+    public static final FoodProperties TrilobiteBoil = new FoodProperties.Builder().nutrition(16).saturationMod(1.2F).build();
 }

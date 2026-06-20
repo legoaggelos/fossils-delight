@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "fossils_delight:trilobite_meats"
+    },
+    {
+      "tag": "fossils_delight:trilobite_meats"
+    },
+    {
+      "tag": "fossils_delight:trilobite_meats"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "fossils_delight:trilobite_boil"
+  },
+  "experience": 2.0,
+  "cookingtime": 300
+}

@@ -8,11 +8,17 @@ public class FossilsArcheologyFeeder {
     public static void registerFoodMappings(FoodMappingsManager manager) {
         manager.addFish(CoelacanthSashimi.get());
         manager.addFish(TiktaalikMaki.get());
+        manager.addFish(TrilobiteBoil.get());
 
         manager.addMeat(Escamoles.get());
         manager.addMeat(ProtoSukiyaki.get());
         manager.addMeat(ThawedStew.get());
+        manager.addMeat(GingerMegalograptus.get());
+        manager.addMeat(JurassicBrochette.get());
+        manager.addMeat(CitipatiWaffles.get());
 
         manager.addEgg(DodoScrambledEggs.get());
+
+        manager.addPlant(RiceInLeave.get());
     }
 }
