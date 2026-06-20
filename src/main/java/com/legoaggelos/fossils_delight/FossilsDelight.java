@@ -42,6 +42,9 @@ public class FossilsDelight
                 output.accept(RiceInLeave.get());
                 output.accept(JurassicBrochette.get());
                 output.accept(CitipatiWaffles.get());
+                output.accept(CitipatiWafflesExtras.get());
+                output.accept(WafflesExtras.get());
+                output.accept(Waffles.get());
                 output.accept(TrilobiteBoil.get());
                 output.accept(MeganeuraOnAStick.get());
             }).build());

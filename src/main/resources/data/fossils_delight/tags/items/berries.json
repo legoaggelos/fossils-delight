@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fossil:berry_crataegus",
+    "fossil:berry_ephedra",
+    "fossil:berry_vaccinium",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries"
+  ]
+}

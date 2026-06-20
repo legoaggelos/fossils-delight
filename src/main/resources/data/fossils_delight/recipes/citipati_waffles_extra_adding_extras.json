@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fossils_delight:citipati_waffles"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "fossils_delight:berries"
+    },
+    {
+      "tag": "fossils_delight:berries"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:citipati_waffles_extra"
+  }
+}

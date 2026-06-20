@@ -9,6 +9,9 @@
     },
     {
       "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:honey_bottle"
     }
   ],
   "container": {

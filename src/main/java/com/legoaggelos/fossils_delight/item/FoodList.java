@@ -16,6 +16,9 @@ public class FoodList {
     public static final FoodProperties RiceInLeave = new FoodProperties.Builder().nutrition(2).saturationMod(1.0F).build();
     public static final FoodProperties JurassicBrochette = new FoodProperties.Builder().nutrition(20).saturationMod(1.6F).build();
     public static final FoodProperties CitipatiWaffles = new FoodProperties.Builder().nutrition(10).saturationMod(1.0F).build();
+    public static final FoodProperties Waffles = new FoodProperties.Builder().nutrition(5).saturationMod(0.5F).build();
+    public static final FoodProperties CitipatiWafflesExtras = new FoodProperties.Builder().nutrition(12).saturationMod(1.1F).build();
+    public static final FoodProperties WafflesExtras = new FoodProperties.Builder().nutrition(7).saturationMod(0.7F).build();
     public static final FoodProperties TrilobiteBoil = new FoodProperties.Builder().nutrition(16).saturationMod(1.2F).build();
     public static final FoodProperties MeganeuraOnAStick = new FoodProperties.Builder().nutrition(16).saturationMod(0.8F).build();
 }
