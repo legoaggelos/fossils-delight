@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fossils_delight:waffles_extra"
+    },
+    {
+      "item": "fossil:cooked_citipati"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:citipati_waffles_extra"
+  }
+}

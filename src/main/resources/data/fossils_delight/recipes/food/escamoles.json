@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "fossil:meat_meganeura"
+    },
+    {
+      "item": "fossil:meat_meganeura"
+    },
+    {
+      "item": "fossil:meat_arthropleura"
+    },
+    {
+      "tag": "c:milks"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "fossils_delight:escamoles"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

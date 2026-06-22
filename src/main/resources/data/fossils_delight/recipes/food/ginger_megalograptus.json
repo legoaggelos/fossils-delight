@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "fossil:meat_megalograptus"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:ginger_megalograptus"
+  },
+  "experience": 2.0,
+  "cookingtime": 400
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fossils_delight",
+	"version": "${version}",
+	"name": "Fossils Delight",
+	"description": "An addon mod that adds compatability between F/A and farmers delight.",
+	"authors": [
+		"legoaggelos",
+		"PaleoSignGuy",
+		"el_sotano_de_auror",
+		"vulturenest_"
+	],
+	"contact": {
+		"sources": "An addon mod that adds compatability between F/A and farmers delight."
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/fossils_delight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.legoaggelos.fossils_delight.FossilsDelight"
+		],
+		"client": [
+			"com.legoaggelos.fossils_delight.client.FossilsDelightClient"
+		]
+	},
+	"mixins": [
+		"fossils_delight.mixins.json",
+		{
+			"config": "fossils_delight.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

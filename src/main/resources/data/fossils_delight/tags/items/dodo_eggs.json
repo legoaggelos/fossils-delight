@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fossil:egg_item_dodo",
+    "fossil:egg_dodo"
+  ]
+}
