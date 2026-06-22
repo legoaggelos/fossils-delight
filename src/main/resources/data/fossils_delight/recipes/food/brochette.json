@@ -12,6 +12,12 @@
     },
     {
       "tag": "minecraft:leaves"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
     }
   ],
   "container": {

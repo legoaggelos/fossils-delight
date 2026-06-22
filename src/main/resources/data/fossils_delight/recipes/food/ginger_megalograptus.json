@@ -17,6 +17,9 @@
       "item": "farmersdelight:wheat_dough"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "result": {
     "item": "fossils_delight:ginger_megalograptus"
   },

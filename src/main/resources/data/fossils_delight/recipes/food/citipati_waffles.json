@@ -20,6 +20,9 @@
       "item": "fossil:meat_citipati"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "result": {
     "item": "fossils_delight:citipati_waffles"
   },

@@ -24,21 +24,21 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ThawedStew = ITEMS.register("thawed_stew",
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.ThawedStew), true));
     public static final RegistryObject<Item> GingerMegalograptus = ITEMS.register("ginger_megalograptus",
-            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BUCKET).food(FoodList.GingerMegalograptus), true));
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.GingerMegalograptus), true));
     public static final RegistryObject<Item> RiceInLeave = ITEMS.register("rice_in_leave",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.RiceInLeave), true));
     public static final RegistryObject<Item> JurassicBrochette = ITEMS.register("brochette",
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.STICK).food(FoodList.JurassicBrochette), true));
     public static final RegistryObject<Item> CitipatiWaffles = ITEMS.register("citipati_waffles",
-            () -> new ConsumableItem(new Item.Properties().food(FoodList.CitipatiWaffles), true));
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.CitipatiWaffles), true));
     public static final RegistryObject<Item> Waffles = ITEMS.register("waffles",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.Waffles), true));
     public static final RegistryObject<Item> CitipatiWafflesExtras = ITEMS.register("citipati_waffles_extra",
-            () -> new ConsumableItem(new Item.Properties().food(FoodList.CitipatiWafflesExtras), true));
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.CitipatiWafflesExtras), true));
     public static final RegistryObject<Item> WafflesExtras = ITEMS.register("waffles_extra",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.WafflesExtras), true));
     public static final RegistryObject<Item> TrilobiteBoil = ITEMS.register("trilobite_boil",
-            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.TrilobiteBoil), true));
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BUCKET).food(FoodList.TrilobiteBoil), true));
     public static final RegistryObject<Item> MeganeuraOnAStick = ITEMS.register("meganeura_stick",
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.STICK).food(FoodList.MeganeuraOnAStick), true));
 }

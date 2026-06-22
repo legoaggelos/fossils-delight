@@ -21,7 +21,7 @@
     }
   ],
   "container": {
-    "item": "minecraft:bowl"
+    "item": "minecraft:bucket"
   },
   "result": {
     "item": "fossils_delight:trilobite_boil"
