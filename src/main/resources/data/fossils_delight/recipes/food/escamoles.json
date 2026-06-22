@@ -17,7 +17,7 @@
       "item": "fossil:meat_arthropleura"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     }
   ],
   "container": {
