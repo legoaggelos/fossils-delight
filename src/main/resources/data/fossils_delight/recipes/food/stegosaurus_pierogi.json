@@ -1,0 +1,13 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "fossils_delight:raw_stego_pierogi"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:stego_pierogi"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

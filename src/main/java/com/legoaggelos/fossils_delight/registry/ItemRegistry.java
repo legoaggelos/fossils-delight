@@ -41,4 +41,14 @@ public class ItemRegistry {
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BUCKET).food(FoodList.TrilobiteBoil), true));
     public static final RegistryObject<Item> MeganeuraOnAStick = ITEMS.register("meganeura_stick",
             () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.STICK).food(FoodList.MeganeuraOnAStick), true));
+    public static final RegistryObject<Item> Psitaco = ITEMS.register("psitaco",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.Psitaco), true));
+    public static final RegistryObject<Item> Xocolatl = ITEMS.register("xocolatl",
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.Xocolatl), true));
+    public static final RegistryObject<Item> HotXocolatl = ITEMS.register("hot_xocolatl",
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.HotXocolatl), true));
+    public static final RegistryObject<Item> RawStegoPierogi = ITEMS.register("raw_stego_pierogi",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.RawStegoPierogi), true));
+    public static final RegistryObject<Item> StegoPierogi = ITEMS.register("stego_pierogi",
+            () -> new ConsumableItem(new Item.Properties().food(FoodList.StegoPierogi), true));
 }

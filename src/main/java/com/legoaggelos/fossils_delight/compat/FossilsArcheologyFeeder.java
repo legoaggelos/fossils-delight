@@ -18,11 +18,16 @@ public class FossilsArcheologyFeeder {
         manager.addMeat(CitipatiWaffles.get());
         manager.addMeat(CitipatiWafflesExtras.get());
         manager.addMeat(MeganeuraOnAStick.get());
+        manager.addMeat(Psitaco.get());
 
         manager.addEgg(DodoScrambledEggs.get());
 
         manager.addPlant(RiceInLeave.get());
         manager.addPlant(Waffles.get());
         manager.addPlant(WafflesExtras.get());
+        manager.addPlant(Xocolatl.get());
+        manager.addPlant(HotXocolatl.get());
+        manager.addPlant(RawStegoPierogi.get());
+        manager.addPlant(StegoPierogi.get());
     }
 }

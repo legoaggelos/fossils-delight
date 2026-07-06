@@ -21,4 +21,9 @@ public class FoodList {
     public static final FoodProperties WafflesExtras = new FoodProperties.Builder().nutrition(7).saturationMod(0.7F).build();
     public static final FoodProperties TrilobiteBoil = new FoodProperties.Builder().nutrition(16).saturationMod(1.2F).build();
     public static final FoodProperties MeganeuraOnAStick = new FoodProperties.Builder().nutrition(16).saturationMod(0.8F).build();
+    public static final FoodProperties Psitaco = new FoodProperties.Builder().nutrition(10).saturationMod(0.6F).build();
+    public static final FoodProperties Xocolatl = new FoodProperties.Builder().nutrition(6).saturationMod(0.3F).build();
+    public static final FoodProperties HotXocolatl = new FoodProperties.Builder().nutrition(6).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST,36000/15,0),1).build();
+    public static final FoodProperties RawStegoPierogi = new FoodProperties.Builder().nutrition(2).saturationMod(0.0F).build();
+    public static final FoodProperties StegoPierogi = new FoodProperties.Builder().nutrition(6).saturationMod(0.2F).build();
 }

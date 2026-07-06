@@ -47,6 +47,11 @@ public class FossilsDelight
                 output.accept(Waffles.get());
                 output.accept(TrilobiteBoil.get());
                 output.accept(MeganeuraOnAStick.get());
+                output.accept(Psitaco.get());
+                output.accept(RawStegoPierogi.get());
+                output.accept(StegoPierogi.get());
+                output.accept(Xocolatl.get());
+                output.accept(HotXocolatl.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)
