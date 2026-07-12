@@ -52,6 +52,10 @@ public class FossilsDelight
                 output.accept(StegoPierogi.get());
                 output.accept(Xocolatl.get());
                 output.accept(HotXocolatl.get());
+                output.accept(SarcoStirFry.get());
+                output.accept(BrighamTea.get());
+                output.accept(QueenOfHearts.get());
+                output.accept(VacNMelon.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)

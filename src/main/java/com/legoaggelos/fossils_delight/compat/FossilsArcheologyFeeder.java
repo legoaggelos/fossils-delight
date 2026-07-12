@@ -19,6 +19,7 @@ public class FossilsArcheologyFeeder {
         manager.addMeat(CitipatiWafflesExtras.get());
         manager.addMeat(MeganeuraOnAStick.get());
         manager.addMeat(Psitaco.get());
+        manager.addMeat(SarcoStirFry.get());
 
         manager.addEgg(DodoScrambledEggs.get());
 
@@ -29,5 +30,8 @@ public class FossilsArcheologyFeeder {
         manager.addPlant(HotXocolatl.get());
         manager.addPlant(RawStegoPierogi.get());
         manager.addPlant(StegoPierogi.get());
+        manager.addPlant(QueenOfHearts.get());
+        manager.addPlant(VacNMelon.get());
+        manager.addPlant(BrighamTea.get());
     }
 }

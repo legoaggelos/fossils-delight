@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "fossil:berry_crataegus"
+    },
+    {
+      "item": "fossil:berry_crataegus"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "fossils_delight:heart_queen"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

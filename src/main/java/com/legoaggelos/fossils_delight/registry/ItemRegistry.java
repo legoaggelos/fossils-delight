@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, FossilsDelight.MODID);
@@ -44,11 +45,19 @@ public class ItemRegistry {
     public static final RegistryObject<Item> Psitaco = ITEMS.register("psitaco",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.Psitaco), true));
     public static final RegistryObject<Item> Xocolatl = ITEMS.register("xocolatl",
-            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.Xocolatl), true));
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.Xocolatl), true));
     public static final RegistryObject<Item> HotXocolatl = ITEMS.register("hot_xocolatl",
-            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.HotXocolatl), true));
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.HotXocolatl), true));
     public static final RegistryObject<Item> RawStegoPierogi = ITEMS.register("raw_stego_pierogi",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.RawStegoPierogi), true));
     public static final RegistryObject<Item> StegoPierogi = ITEMS.register("stego_pierogi",
             () -> new ConsumableItem(new Item.Properties().food(FoodList.StegoPierogi), true));
+    public static final RegistryObject<Item> SarcoStirFry = ITEMS.register("sarco_stirfry",
+            () -> new ConsumableItem(new Item.Properties().craftRemainder(Items.BOWL).food(FoodList.SarcoStirFry), true));
+    public static final RegistryObject<Item> BrighamTea = ITEMS.register("brigham_tea",
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.BrighamTea), true));
+    public static final RegistryObject<Item> QueenOfHearts = ITEMS.register("heart_queen",
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.QueenOfHearts), true));
+    public static final RegistryObject<Item> VacNMelon = ITEMS.register("vacnmelon",
+            () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.VacNMelon), true));
 }

@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "fossil:meat_sarcosuchus"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "fossils_delight:sarco_stirfry"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}
