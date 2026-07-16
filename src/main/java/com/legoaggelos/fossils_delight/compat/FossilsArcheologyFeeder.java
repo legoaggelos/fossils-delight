@@ -33,5 +33,12 @@ public class FossilsArcheologyFeeder {
         manager.addPlant(QueenOfHearts.get());
         manager.addPlant(VacNMelon.get());
         manager.addPlant(BrighamTea.get());
+        manager.addPlant(DodoDew.get());
+        manager.addPlant(DryoPunch.get());
+        manager.addPlant(TyrantBlood.get());
+        manager.addPlant(PteraFlow.get());
+        manager.addPlant(MammothFrost.get());
+        manager.addPlant(BioGooJello.get());
+        manager.addPlant(CretaceousCalamitea.get());
     }
 }

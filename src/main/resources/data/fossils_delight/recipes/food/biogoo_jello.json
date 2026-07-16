@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "fossil:bio_goo"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:biogoo_jello"
+  },
+  "experience": 1.0,
+  "cookingtime": 150
+}

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "farmersdelight:rice"
+      "item": "farmersdelight:cooked_rice"
     },
     {
-      "item": "farmersdelight:rice"
+      "item": "farmersdelight:cooked_rice"
     },
     {
       "item": "fossil:meat_tiktaalik"

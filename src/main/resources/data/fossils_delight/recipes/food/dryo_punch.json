@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "fossils_delight:berries"
+    },
+    {
+      "tag": "fossils_delight:berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "fossil:tempskya_leaf"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    }
+  ],
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "fossils_delight:dryo_punch"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

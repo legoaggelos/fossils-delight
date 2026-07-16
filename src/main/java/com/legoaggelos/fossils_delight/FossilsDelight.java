@@ -56,6 +56,13 @@ public class FossilsDelight
                 output.accept(BrighamTea.get());
                 output.accept(QueenOfHearts.get());
                 output.accept(VacNMelon.get());
+                output.accept(DryoPunch.get());
+                output.accept(DodoDew.get());
+                output.accept(TyrantBlood.get());
+                output.accept(PteraFlow.get());
+                output.accept(MammothFrost.get());
+                output.accept(CretaceousCalamitea.get());
+                output.accept(BioGooJello.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)

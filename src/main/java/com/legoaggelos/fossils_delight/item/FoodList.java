@@ -30,4 +30,11 @@ public class FoodList {
     public static final FoodProperties BrighamTea = new FoodProperties.Builder().nutrition(4).saturationMod(0.5F).build();
     public static final FoodProperties QueenOfHearts = new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build();
     public static final FoodProperties VacNMelon = new FoodProperties.Builder().nutrition(7).saturationMod(0.5F).build();
+    public static final FoodProperties DryoPunch = new FoodProperties.Builder().nutrition(5).saturationMod(0.5F).build();
+    public static final FoodProperties PteraFlow = new FoodProperties.Builder().nutrition(9).saturationMod(0.5F).build();
+    public static final FoodProperties TyrantBlood = new FoodProperties.Builder().nutrition(10).saturationMod(0.8F).build();
+    public static final FoodProperties MammothFrost = new FoodProperties.Builder().nutrition(6).saturationMod(0.4F).build();
+    public static final FoodProperties DodoDew = new FoodProperties.Builder().nutrition(10).saturationMod(0.5F).build();
+    public static final FoodProperties CretaceousCalamitea = new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build();
+    public static final FoodProperties BioGooJello = new FoodProperties.Builder().nutrition(8).saturationMod(0.6F).build();
 }
