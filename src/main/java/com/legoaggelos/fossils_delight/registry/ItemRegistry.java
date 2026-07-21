@@ -73,5 +73,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> CretaceousCalamitea = ITEMS.register("cretaceous_calamitea",
             () -> new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(FoodList.CretaceousCalamitea), true));
     public static final RegistryObject<Item> BioGooJello = ITEMS.register("biogoo_jello",
-            () -> new DrinkableItem(new Item.Properties().stacksTo(16).food(FoodList.BioGooJello), true));
+            () -> new DrinkableItem(new Item.Properties().food(FoodList.BioGooJello), true));
+    public static final RegistryObject<Item> MammothPotRoast = ITEMS.register("mammoth_roast",
+            () -> new DrinkableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.MammothPotRoast), true));
 }

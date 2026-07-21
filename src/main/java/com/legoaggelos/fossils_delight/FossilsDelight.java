@@ -63,6 +63,7 @@ public class FossilsDelight
                 output.accept(MammothFrost.get());
                 output.accept(CretaceousCalamitea.get());
                 output.accept(BioGooJello.get());
+                output.accept(MammothPotRoast.get());
             }).build());
 
     public FossilsDelight(FMLJavaModLoadingContext context)

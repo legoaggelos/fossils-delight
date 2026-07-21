@@ -37,4 +37,5 @@ public class FoodList {
     public static final FoodProperties DodoDew = new FoodProperties.Builder().nutrition(10).saturationMod(0.5F).build();
     public static final FoodProperties CretaceousCalamitea = new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build();
     public static final FoodProperties BioGooJello = new FoodProperties.Builder().nutrition(8).saturationMod(0.6F).build();
+    public static final FoodProperties MammothPotRoast = new FoodProperties.Builder().nutrition(10).saturationMod(1.2F).build();
 }

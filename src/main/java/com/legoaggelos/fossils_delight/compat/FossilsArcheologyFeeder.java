@@ -20,6 +20,7 @@ public class FossilsArcheologyFeeder {
         manager.addMeat(MeganeuraOnAStick.get());
         manager.addMeat(Psitaco.get());
         manager.addMeat(SarcoStirFry.get());
+        manager.addMeat(MammothPotRoast.get());
 
         manager.addEgg(DodoScrambledEggs.get());
 

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "fossil:meat_mammoth"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "fossils_delight:mammoth_roast"
+  },
+  "experience": 2.0,
+  "cookingtime": 200
+}
