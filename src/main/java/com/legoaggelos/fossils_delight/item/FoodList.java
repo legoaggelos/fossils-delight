@@ -38,4 +38,9 @@ public class FoodList {
     public static final FoodProperties CretaceousCalamitea = new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build();
     public static final FoodProperties BioGooJello = new FoodProperties.Builder().nutrition(8).saturationMod(0.6F).build();
     public static final FoodProperties MammothPotRoast = new FoodProperties.Builder().nutrition(10).saturationMod(1.2F).build();
+    public static final FoodProperties ProtoCurry = new FoodProperties.Builder().nutrition(13).saturationMod(1.3F).build();
+    public static final FoodProperties DromoAlheira = new FoodProperties.Builder().nutrition(20).saturationMod(1.6F).build();
+    public static final FoodProperties TriaMai = new FoodProperties.Builder().nutrition(9).saturationMod(0.5F).build();
+    public static final FoodProperties PrimordialGumbo = new FoodProperties.Builder().nutrition(12).saturationMod(0.8F).effect(()-> new MobEffectInstance(MobEffects.CONFUSION, 20*30, 0), 1).effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 90*30, 0), 1).build();
+    public static final FoodProperties DinoNugget = new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).build();
 }

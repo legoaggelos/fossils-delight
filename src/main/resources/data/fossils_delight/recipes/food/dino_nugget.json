@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "fossils_delight:raw_dino_meats"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:dino_nugget",
+    "count": 4
+  },
+  "experience": 1.0,
+  "cookingtime": 250
+}

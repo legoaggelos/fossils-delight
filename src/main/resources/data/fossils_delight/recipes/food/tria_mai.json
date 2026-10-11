@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "fossil:meat_postosuchus"
+    },
+    {
+      "item": "fossil:meat_postosuchus"
+    },
+    {
+      "item": "fossil:meat_henodus"
+    },
+    {
+      "item": "fossil:egg_item_nautilus"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "result": {
+    "item": "fossils_delight:tria_mai",
+    "count": 4
+  },
+  "experience": 2.0,
+  "cookingtime": 400
+}

@@ -75,5 +75,15 @@ public class ItemRegistry {
     public static final RegistryObject<Item> BioGooJello = ITEMS.register("biogoo_jello",
             () -> new DrinkableItem(new Item.Properties().food(FoodList.BioGooJello), true));
     public static final RegistryObject<Item> MammothPotRoast = ITEMS.register("mammoth_roast",
-            () -> new DrinkableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.MammothPotRoast), true));
+            () -> new ConsumableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.MammothPotRoast), true));
+    public static final RegistryObject<Item> ProtoCurry = ITEMS.register("proto_curry",
+            () -> new ConsumableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.ProtoCurry), true));
+    public static final RegistryObject<Item> DromoAlheira = ITEMS.register("dromo_alheira",
+            () -> new ConsumableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.DromoAlheira), true));
+    public static final RegistryObject<Item> Triassic_Siu_Mai = ITEMS.register("tria_mai",
+            () -> new ConsumableItem(new Item.Properties().stacksTo(64).food(FoodList.TriaMai), true));
+    public static final RegistryObject<Item> Primordial_Gumbo = ITEMS.register("prim_gumbo",
+            () -> new ConsumableItem(new Item.Properties().stacksTo(16).craftRemainder(Items.BOWL).food(FoodList.PrimordialGumbo), true));
+    public static final RegistryObject<Item> DinoNugget = ITEMS.register("dino_nugget",
+            () -> new ConsumableItem(new Item.Properties().stacksTo(64).food(FoodList.DinoNugget), true));
 }

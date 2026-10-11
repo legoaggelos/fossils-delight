@@ -21,6 +21,11 @@ public class FossilsArcheologyFeeder {
         manager.addMeat(Psitaco.get());
         manager.addMeat(SarcoStirFry.get());
         manager.addMeat(MammothPotRoast.get());
+        manager.addMeat(ProtoCurry.get());
+        manager.addMeat(DromoAlheira.get());
+        manager.addMeat(Triassic_Siu_Mai.get());
+        manager.addMeat(Primordial_Gumbo.get());
+        manager.addMeat(DinoNugget.get());
 
         manager.addEgg(DodoScrambledEggs.get());
 
